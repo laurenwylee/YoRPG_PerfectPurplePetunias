@@ -1,0 +1,9 @@
+protagonists:
+- mage (atk), lower hp
+- archer (strength rating), medium hp
+- knight (defense), highest hp
+
+monster:
+- ogre (strength rating)
+- goblin (atk)
+- lizard (tank/defense)
