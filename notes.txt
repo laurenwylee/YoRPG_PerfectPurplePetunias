@@ -7,3 +7,8 @@ monster:
 - ogre (strength rating)
 - goblin (atk)
 - lizard (tank/defense)
+
+OUR DRIVER MODS
+Added new subclasses for Protagonist and Monster.
+Allows user to select class of Protagonist.
+"random" monsters.
