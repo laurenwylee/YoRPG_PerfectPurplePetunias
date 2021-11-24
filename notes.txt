@@ -12,3 +12,11 @@ OUR DRIVER MODS
 Added new subclasses for Protagonist and Monster.
 Allows user to select class of Protagonist.
 "random" monsters.
+
+DISCOS:
+ioexception is weird, threw up weird errors not cool
+override things if you need to cuz why not
+
+
+QCC:
+how to random good?
