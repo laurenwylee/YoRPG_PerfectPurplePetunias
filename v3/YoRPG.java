@@ -88,8 +88,9 @@ Allows user to select class of Protagonist.
      s += "\t3: Knight\n";
      s += "Selection: ";
      System.out.print( s );
-     int classNum = Integer.parseInt( in.readLine() );
+
      try {
+            int classNum = Integer.parseInt( in.readLine() );
  	    if (classNum == 1) {
         pat = new Mage( name );
         System.out.println("Class: Mage");
@@ -114,7 +115,7 @@ Allows user to select class of Protagonist.
    /*=============================================
      boolean playTurn -- simulates a round of combat
      pre:  Protagonist pat has been initialized
-     post: Returns true if player wins (monster dies).
+     post: Returns true if playiner wins (monster dies).
      Returns false if monster wins (player dies).
      =============================================*/
    public boolean playTurn() {
@@ -126,7 +127,7 @@ Allows user to select class of Protagonist.
     }
      else {
  	    System.out.println( "\nLo, yonder monster approacheth!" );
-      x = Math.random() * 3;
+      double x = Math.random() * 3;
       if ( x < 1 ) {
         smaug = new Ogre();
         System.out.println( "\nOgre" );
@@ -194,8 +195,6 @@ Allows user to select class of Protagonist.
    }//end playTurn()
    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-44 v2/YoRPG.java
-eortiz30@cslab3-5:~/YoRPG_PerfectPurplePe
    public static void main( String[] args ) {
      //As usual, move the begin-comment bar down as you progressively
      //test each new bit of functionality...
