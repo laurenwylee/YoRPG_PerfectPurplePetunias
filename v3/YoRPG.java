@@ -30,6 +30,7 @@ Allows user to select class of Protagonist.
 
    private InputStreamReader isr;
    private BufferedReader in;
+
    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -96,11 +97,11 @@ Allows user to select class of Protagonist.
         System.out.println("Class: Mage");
       }
       else if (classNum == 2) {
-        pat = new Archer();
+        pat = new Archer(name);
         System.out.println("Class: Archer");
       }
       else if (classNum == 3) {
-        pat = new Knight();
+        pat = new Knight(name);
         System.out.println("Class: Knight");
       }
      }
